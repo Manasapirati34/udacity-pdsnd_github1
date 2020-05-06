@@ -25,6 +25,7 @@ def get_filters():
         city=(input())
         city=city.lower()
     # TO DO: get user input for month (all, january, february, ... , june)
+    # month_list
     month=(input("enter month:"))
     month=month.lower()
     while month not in month_list:
